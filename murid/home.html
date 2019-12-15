@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>E-KaKu</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+        <script src="https://kit.fontawesome.com/9044f492c9.js" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        .container-4{
+        overflow: hidden;
+        vertical-align: middle;
+        white-space: nowrap;
+        }
+        .container-4 input#search{
+        width: 300px;
+        height: 50px;
+        background: #2b303b;
+        border: none;
+        font-size: 10pt;
+        color: #fff;
+        padding-left: 15px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        }
+        .container-4 input#search::-webkit-input-placeholder {
+        color: #65737e;
+        }
+        
+        .container-4 input#search:-moz-placeholder { /* Firefox 18- */
+        color: #65737e;  
+        }
+        
+        .container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
+        color: #65737e;  
+        }
+        
+        .container-4 input#search:-ms-input-placeholder {  
+        color: #65737e;  
+        }
+        .container-4 button.icon{
+        -webkit-border-top-right-radius: 5px;
+        -webkit-border-bottom-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        
+        border: none;
+        background: #232833;
+        height: 50px;
+        width: 50px;
+        color: #4f5b66;
+        opacity: 1;
+        font-size: 10pt;
+        
+        -webkit-transition: all .55s ease;
+        -moz-transition: all .55s ease;
+        -ms-transition: all .55s ease;
+        -o-transition: all .55s ease;
+        transition: all .55s ease;
+        }
+
+        .container-4:hover button.icon, .container-4:active button.icon, .container-4:focus button.icon{
+            outline: none;
+            opacity: 1;
+            margin-left: -50px;
+        }
+        
+        .container-4:hover button.icon:hover{
+            background: white;
+        }
+    </style>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">E-KaKu</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="list.html">Guru</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bantuan.html">Bantuan</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <button type="button" class="btn btn-link">Sign Out</button>
+                </span>
+              </div>
+            </div>
+        </nav>
+        <div class="mt-5 col-md-12"></div>
+        <div class="container">
+            <main role="main">
+                <div class="jumbotron">
+                    <div class="text-center">
+                        <div>
+                            <i class="fab fa-airbnb" style="font-size:110px;"></i>
+                        </div>
+                        <h1>Selamat datang user di E-KaKu</h1>
+                        <div class="box">
+                                <div class="container-4">
+                                  <input type="search" id="search" placeholder="Cari Guru" />
+                                  <button class="icon"><i class="fa fa-search"></i></button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
